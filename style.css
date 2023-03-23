@@ -146,20 +146,6 @@ img{
   width: 200px;
   
 }
-
-
-
-/* Media queries */
-@media screen and (max-width: 991px) {
-  .service {
-    flex-basis: 45%;
-    margin-bottom: 30px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-}
-
 /* Contact Us section */
 
 #contact-us {
@@ -206,10 +192,20 @@ button[type="submit"] {
 footer {
   text-align: center;
 }
-#logo{
-  width: 150px;
-  height: 100px;
+
+
+
+/* Media queries */
+@media screen and (max-width: 991px) {
+  .service {
+    flex-basis: 45%;
+    margin-bottom: 30px;
+  }
 }
+
+
+
+
 
 @media only screen and (max-width: 768px) {
   .nav ul a {
@@ -279,3 +275,4 @@ footer {
   form {
     width: 100%;
   }
+}
